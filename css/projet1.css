@@ -1,0 +1,100 @@
+style {
+  font-family: 'Press Start 2P', cursive;
+}
+
+body{
+  background-image: url(../images/ok.jpg);
+  /* background-color : rgba(146, 53, 53, 0.913) ; */
+  text-align : center;
+  background-repeat : no-repeat;
+  background-size: cover; 
+  font-family: 'Permanent Marker', cursive;
+}
+
+header {
+  color : dodgerblue;
+  text-shadow: 2px 2px 2px black;
+
+}
+canvas {
+  border: 2px solid transparent;
+}
+
+.gameCanvas{
+  z-index: 10;
+ 
+}
+
+.border { 
+  height : 610px;
+  position: relative;
+  z-index : 1;
+ width : 75%;
+ color : deeppink;
+ border : solid #4169E1 10px;
+ border-radius : 40px;
+ box-shadow: 20px 20px 20px #778899;
+ float : right; 
+ /* background-image: url(../images/milky.jpg); */
+ background-size : cover;
+ background-image: url(../images/milky.jpg);
+} 
+
+.hide3 {
+  display: none;
+}
+
+/* position des calques :  */
+
+
+
+/* .instructions {
+  
+  height : 610px;
+  width : 25%;
+  color : #FF358B;
+  border : solid #4169E1 10px;
+  /* border-right : solid #4169E1 250px; */
+  /* border-radius : 40px; */
+  /* box-shadow: 20px 20px 20px #778899; */
+  /* background-image : url("http://img.over-blog-kiwi.com/0/90/38/87/20140316/ob_5af185_fond-ecran-tablette-01.jpg"); */
+  /* background-position : cover; */
+  /* background-color : blue; */
+  /* float : left;  */
+/* } */ 
+
+  /* hide  */
+  /* .cache1 {
+    display: none;
+  } 
+  
+  .cache2 {
+    display: none;
+  }   */
+
+  .posititonBtn {
+    margin-top : 10px; 
+  }
+
+  /* /// chronometrer */
+
+  #sphere {
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-family: "Digi";
+    font-size: 20px;
+    height: 10px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    position: relative;
+    text-align: center;
+    width: 100px;
+  }
+  /* LIFE  */
+
+  .glyphicon-heart{
+    font-size : 25px;
+    color : red;
+    /* margin-top : 100px */
+  }
