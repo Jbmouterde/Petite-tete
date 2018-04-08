@@ -218,7 +218,7 @@ var bonus2 = {
 
 
 var pipeImage = new Image();
-pipeImage.src = "./images/coree.png";
+pipeImage.src = "./images/code .png";
 
 var pipeImage2 = new Image();
 pipeImage2.src = "./images/milky.jpg";
@@ -226,28 +226,28 @@ pipeImage2.src = "./images/milky.jpg";
 // ligne obstacle
 var allPipes = [
   //ligne 1
-  new Pipe(pipeImage,100, 80, 20.25, 36),
-  new Pipe(pipeImage,300, 80, 20.25, 36),
-  new Pipe(pipeImage, 500, 80, 20.25, 36),
-  new Pipe(pipeImage, 700, 80, 20.25, 36),
-  new Pipe(pipeImage, 800, 80, 20.25, 36),
-  new Pipe(pipeImage, 1000, 80, 20.25, 36),
-  new Pipe(pipeImage, 10, 80, 20.25, 36),
+  new Pipe(pipeImage,100, 80, 30, 20),
+  new Pipe(pipeImage,300, 80, 30, 20),
+  new Pipe(pipeImage, 500, 80, 30, 20),
+  new Pipe(pipeImage, 700, 80, 30, 20),
+  new Pipe(pipeImage, 800, 80, 30, 20),
+  new Pipe(pipeImage, 1000, 80, 30, 20),
+  new Pipe(pipeImage, 10, 80, 30, 20),
  
   // ligne 2
-  new Pipe(pipeImage2,200, 170, 20.25, 36),
-  new Pipe(pipeImage2,500, 170, 20.25, 36),
-  new Pipe(pipeImage2,10, 170, 20.25, 36),
+  new Pipe(pipeImage2,200, 170, 30, 20),
+  new Pipe(pipeImage2,500, 170, 30, 20),
+  new Pipe(pipeImage2,10, 170, 30, 20),
 
   // ligne 3
-  new Pipe(pipeImage2,100, 350, 20, 36),
-  new Pipe(pipeImage2,500, 350, 20, 36),
-  new Pipe(pipeImage2,0, 350, 20, 36),
+  new Pipe(pipeImage2,100, 350, 30, 20),
+  new Pipe(pipeImage2,500, 350, 30, 20),
+  new Pipe(pipeImage2,0, 350, 30, 20),
 
   //ligne 4
-  new Pipe(pipeImage2,50, 450, 20.25, 36),
-  new Pipe(pipeImage2,400, 450, 20.25, 36),
-  new Pipe(pipeImage2,250, 450, 20.25, 36),
+  new Pipe(pipeImage2,50, 450, 30, 20),
+  new Pipe(pipeImage2,400, 450, 30, 20),
+  new Pipe(pipeImage2,250, 450, 30, 20),
 
   // middle section 
  
@@ -274,7 +274,7 @@ function createStuff () {
 allPipes.forEach(function (onePipe) {
   // onePipe.src = "./images/tree.png"
     
-    onePipe.x += Math.floor(Math.random()*5);
+    onePipe.x += 3.5;
     onePipe.drawMe();
     if (onePipe.x >= canvas.width) {
       onePipe.x = 0;

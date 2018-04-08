@@ -208,7 +208,7 @@ function createStuff () {
  
 // DRAW THE ENNEMIES
 allPipes.forEach(function (onePipe) {
-  onePipe.x -= Math.floor(Math.random()*3.5);
+  onePipe.x -= 2.5;
   onePipe.drawMe();
   if (onePipe.x <= -onePipe.width) {
     onePipe.x = canvas.width;

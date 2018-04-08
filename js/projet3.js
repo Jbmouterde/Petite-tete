@@ -291,8 +291,8 @@ function createStuff () {
 allPipes.forEach(function (onePipe) {
   // onePipe.src = "./images/tree.png"
     
-    onePipe.x -= Math.floor(Math.random()*5);
-    onePipe.y += Math.floor(Math.random()*3);
+    onePipe.x -= 1;
+    onePipe.y += 1;
 
     onePipe.drawMe();
     if (onePipe.x <= -onePipe.width) {
