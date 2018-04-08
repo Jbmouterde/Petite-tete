@@ -141,12 +141,12 @@ var ctx = canvas.getContext("2d");
 
 // hero 
 var heroImage = new Image();
-heroImage.src = "./images/trum.png";
+heroImage.src = "./images/castor.png";
 var hero = {
   x: 450,
   y: 530,
-  width: 48.40,
-  height: 62.95,
+  width: 60.40,
+  height: 54.95,
   drawMe: function () {
     if (this.x <= 0) {
       this.x = 0;
@@ -164,12 +164,12 @@ var hero = {
 };
 // WIN IMAGE ; 
 var hero2Image = new Image();
-hero2Image.src = "./images/kremlin.png";
+hero2Image.src = "./images/pro.jpg";
 var hero2 = {
   x: 450,
   y: 10,
-  width: 62.95,
-  height: 40.95,
+  width: 50.95,
+  height: 50.95,
   drawMe: function () {
     ctx.drawImage(hero2Image, this.x, this.y, this.width, this.height);
   }
@@ -188,7 +188,7 @@ var score;
 //   }
 // };
 var bonus2Image = new Image();
-bonus2Image.src = "./images/dollar.png";
+bonus2Image.src = "./images/rosee.png";
 var bonus2 = {
   x: Math.floor(Math.random() * 1000),
   y: 110,
